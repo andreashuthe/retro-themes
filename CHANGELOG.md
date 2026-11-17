@@ -8,6 +8,8 @@ and uses it as the GitHub release notes.
 
 ## [Unreleased]
 
+## [1.0.0] - 2026-11-17
+
 ### Added
 - Eight themes: **Breadbin 64** (C64), **Topaz 1.3** (Amiga Workbench 1.3), **Blue Commander** (Norton Commander),
   **Turbo Blue** (Turbo Pascal 7), **Green Desktop** (Atari ST), **Platinum** (Mac OS 8/9), **Program Manager**
