@@ -1,0 +1,111 @@
+{
+  "name": "retro-computing-themes",
+  "displayName": "Retro Computing Themes",
+  "description": "Eight color themes inspired by classic computers and DOS tools: C64, Amiga Workbench 1.3, Norton Commander, Turbo Pascal, Atari ST, Mac OS 9, Windows 3.1 and Windows XP – original palettes, tuned for readable code.",
+  "version": "0.1.0",
+  "publisher": "andreashuthe",
+  "author": "Andreas Huth",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andreashuthe/retro-computing-themes.git"
+  },
+  "bugs": {
+    "url": "https://github.com/andreashuthe/retro-computing-themes/issues"
+  },
+  "homepage": "https://github.com/andreashuthe/retro-computing-themes#readme",
+  "icon": "media/icon.png",
+  "galleryBanner": {
+    "color": "#352879",
+    "theme": "dark"
+  },
+  "pricing": "Free",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "color theme",
+    "retro",
+    "vintage",
+    "c64",
+    "commodore",
+    "amiga",
+    "dos",
+    "norton commander",
+    "turbo pascal",
+    "atari st",
+    "mac os 9",
+    "windows 3.1",
+    "windows xp",
+    "nostalgia"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "id": "Breadbin 64",
+        "label": "Breadbin 64",
+        "uiTheme": "vs-dark",
+        "path": "./themes/breadbin-64-color-theme.json"
+      },
+      {
+        "id": "Topaz 1.3",
+        "label": "Topaz 1.3",
+        "uiTheme": "vs-dark",
+        "path": "./themes/topaz-13-color-theme.json"
+      },
+      {
+        "id": "Blue Commander",
+        "label": "Blue Commander",
+        "uiTheme": "vs-dark",
+        "path": "./themes/blue-commander-color-theme.json"
+      },
+      {
+        "id": "Turbo Blue",
+        "label": "Turbo Blue",
+        "uiTheme": "vs-dark",
+        "path": "./themes/turbo-blue-color-theme.json"
+      },
+      {
+        "id": "Green Desktop",
+        "label": "Green Desktop",
+        "uiTheme": "vs",
+        "path": "./themes/green-desktop-color-theme.json"
+      },
+      {
+        "id": "Platinum",
+        "label": "Platinum",
+        "uiTheme": "vs",
+        "path": "./themes/platinum-color-theme.json"
+      },
+      {
+        "id": "Program Manager",
+        "label": "Program Manager",
+        "uiTheme": "vs",
+        "path": "./themes/program-manager-color-theme.json"
+      },
+      {
+        "id": "Luna Blue",
+        "label": "Luna Blue",
+        "uiTheme": "vs",
+        "path": "./themes/luna-blue-color-theme.json"
+      }
+    ]
+  },
+  "scripts": {
+    "build": "node scripts/build.js",
+    "test": "node scripts/build.js && node --test test/*.test.js",
+    "screenshots": "node scripts/screenshots.js",
+    "package": "npm run build && vsce package",
+    "test:vscode": "node -e \"require('@vscode/test-electron').downloadAndUnzipVSCode('stable').then(p=>console.log(p))\""
+  },
+  "devDependencies": {
+    "@vscode/test-electron": "^3.1.0",
+    "@vscode/vsce": "^4.1.0",
+    "vscode-oniguruma": "^2.0.1",
+    "vscode-textmate": "^9.3.2"
+  }
+}

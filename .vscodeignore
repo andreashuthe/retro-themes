@@ -1,0 +1,14 @@
+.vscode/**
+.vscode-test
+.vscode-test/**
+.github/**
+docs/**
+test/**
+scripts/**
+media/icon.svg
+media/icon-512.png
+node_modules/**
+*.vsix
+.gitignore
+release-notes.md
+RELEASING.md
