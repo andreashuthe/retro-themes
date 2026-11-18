@@ -51,4 +51,46 @@ module.exports = {
     license: 'ships with Windows',
     settings: { 'editor.fontFamily': "'Lucida Console', 'Courier New', 'Liberation Mono', monospace", 'editor.fontSize': 14, 'editor.lineHeight': 20 },
   },
+  'green-phosphor': {
+    font: 'Px437 IBM MDA',
+    url: 'https://int10h.org/oldschool-pc-fonts/',
+    license: 'The Ultimate Oldschool PC Font Pack by VileR, CC BY-SA 4.0',
+    settings: { 'editor.fontFamily': "'Px437 IBM MDA', monospace", 'editor.fontSize': 18, 'editor.lineHeight': 22, 'editor.cursorStyle': 'block' },
+  },
+  'amber-phosphor': {
+    font: 'Px437 IBM MDA',
+    url: 'https://int10h.org/oldschool-pc-fonts/',
+    license: 'The Ultimate Oldschool PC Font Pack by VileR, CC BY-SA 4.0',
+    settings: { 'editor.fontFamily': "'Px437 IBM MDA', monospace", 'editor.fontSize': 18, 'editor.lineHeight': 22, 'editor.cursorStyle': 'underline' },
+  },
+  'pocket-green': {
+    font: 'Press Start 2P',
+    url: 'https://fonts.google.com/specimen/Press+Start+2P',
+    license: 'SIL Open Font License',
+    settings: { 'editor.fontFamily': "'Press Start 2P', monospace", 'editor.fontSize': 12, 'editor.lineHeight': 22, 'editor.cursorStyle': 'block' },
+  },
+  'mode-1': {
+    font: 'Px437 Amstrad PC',
+    url: 'https://int10h.org/oldschool-pc-fonts/',
+    license: 'The Ultimate Oldschool PC Font Pack by VileR, CC BY-SA 4.0 (Amstrad PC1512 font – no maintained free CPC font exists)',
+    settings: { 'editor.fontFamily': "'Px437 Amstrad PC', monospace", 'editor.fontSize': 16, 'editor.lineHeight': 20, 'editor.cursorStyle': 'block' },
+  },
+  'page-100': {
+    font: 'Bedstead',
+    url: 'https://bjh21.me.uk/bedstead/',
+    license: 'public domain; also packaged as "fonts-bedstead" in Debian',
+    settings: { 'editor.fontFamily': "Bedstead, 'Px437 IBM VGA 8x16', monospace", 'editor.fontSize': 16, 'editor.lineHeight': 20, 'editor.cursorStyle': 'block' },
+  },
+  'black-cube': {
+    font: 'Courier Prime',
+    url: 'https://fonts.google.com/specimen/Courier+Prime',
+    license: "SIL Open Font License (NeXT's own Ohlfs isn't freely licensed)",
+    settings: { 'editor.fontFamily': "'Courier Prime', Courier, monospace", 'editor.fontSize': 14, 'editor.lineHeight': 20 },
+  },
+  'ocean-drive': {
+    font: 'Space Mono',
+    url: 'https://fonts.google.com/specimen/Space+Mono',
+    license: 'SIL Open Font License',
+    settings: { 'editor.fontFamily': "'Space Mono', monospace", 'editor.fontSize': 14, 'editor.lineHeight': 22, 'editor.cursorStyle': 'line', 'editor.cursorBlinking': 'expand' },
+  },
 };

@@ -35,6 +35,12 @@ function semanticTokenColors(p) {
     if (fontStyle.includes('strikethrough')) r.strikethrough = true;
     out[sel] = r;
   }
+  // language specific call rules (method:typescript) would also win over generic method.declaration
+  for (const sel of Object.keys(out)) {
+    const m = /^(function|method)(\.static)?:(\w+)$/.exec(sel);
+    const decl = m && `${m[1]}${m[2] ?? ''}.declaration:${m[3]}`;
+    if (decl && !out[decl]) out[decl] = { ...out['method.declaration'] };
+  }
   out['*.deprecated'] = { strikethrough: true };
   return out;
 }

@@ -81,7 +81,7 @@ for (const p of PALETTES) {
 const extDir = vscodeExtensionsDir(root);
 const SAMPLES = {
   java: ['EntityRepositoryDao.java', { keyword: 'public', string: 'entityRepository', number: '100', comment: 'TODO: use a cache here', function: 'contains' }],
-  typescript: ['service.ts', { keyword: 'export', function: 'total' }],
+  typescript: ['service.ts', { keyword: 'export', function: 'helper', call: 'log' }],
   python: ['orders.py', { keyword: 'def', function: 'total', string: '42', comment: 'sum up all items' }],
   go: ['order.go', { keyword: 'func', function: 'Total' }],
   rust: ['order.rs', { keyword: 'fn', function: 'total' }],

@@ -28,6 +28,13 @@ const SAMPLE = {
   platinum: 'service.ts',
   'program-manager': 'OrderService.php',
   'luna-blue': 'EntityRepositoryDao.java',
+  'green-phosphor': 'order.go',
+  'amber-phosphor': 'orders.py',
+  'pocket-green': 'app.js',
+  'mode-1': 'EntityRepositoryDao.java',
+  'page-100': 'service.ts',
+  'black-cube': 'order.cpp',
+  'ocean-drive': 'service.ts',
 };
 
 async function vscodePath() {
@@ -77,7 +84,7 @@ async function shoot(p) {
   await sleep(6000);
   // VS Code (1.145+) starts with the first theme of an extension under development – set the theme afterwards
   fs.writeFileSync(settingsFile, JSON.stringify(settings, null, 1));
-  await sleep(3500);
+  await sleep(7000); // language servers: semantic tokens
   for (let i = 0; i < 3; i++) {
     await w.keyboard.press('Escape');
     await sleep(200);

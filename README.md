@@ -4,7 +4,7 @@
 </h1>
 
 <p align="center">
-  Eight color themes for VS Code inspired by the computers and tools many of us started on –<br>
+  14 color themes (plus a bonus) for VS Code inspired by the computers and tools many of us started on –<br>
   original palettes, tuned so code stays readable.
 </p>
 
@@ -24,8 +24,15 @@
 | **Platinum** | Mac OS 8/9 with CodeWarrior's syntax colors | light |
 | **Program Manager** | Windows 3.1 | light |
 | **Luna Blue** | Windows XP with Visual Studio 2005's syntax colors | light |
+| **Green Phosphor** | green monochrome monitors (IBM 5151, Apple II, Commodore PET) | dark |
+| **Amber Phosphor** | amber monochrome monitors | dark |
+| **Pocket Green** | the original Game Boy | light |
+| **Mode 1** | the Amstrad / Schneider CPC 464 | dark |
+| **Page 100** | Teletext / Videotext | dark |
+| **Black Cube** | NeXTSTEP | light |
+| **Ocean Drive** *(bonus)* | neon sunsets over Miami Beach – not a computer, just a vibe | dark |
 
-The screenshots use the recommended fonts (see below).
+The screenshots use the recommended fonts (see below; *Page 100* is shown with the VGA font).
 
 ### Breadbin 64
 ![Breadbin 64](docs/breadbin-64.png)
@@ -51,6 +58,30 @@ The screenshots use the recommended fonts (see below).
 ### Luna Blue
 ![Luna Blue](docs/luna-blue.png)
 
+### Green Phosphor
+![Green Phosphor](docs/green-phosphor.png)
+
+### Amber Phosphor
+![Amber Phosphor](docs/amber-phosphor.png)
+
+### Pocket Green
+![Pocket Green](docs/pocket-green.png)
+
+### Mode 1
+![Mode 1](docs/mode-1.png)
+
+### Page 100
+![Page 100](docs/page-100.png)
+
+### Black Cube
+![Black Cube](docs/black-cube.png)
+
+### Bonus: Ocean Drive
+Neon pink keywords, turquoise strings, sunset-orange numbers and golden functions on a violet night sky – with a
+status bar like a neon sign.
+
+![Ocean Drive](docs/ocean-drive.png)
+
 ## Install
 
 Install **Retro Computing Themes** from the
@@ -72,6 +103,11 @@ Other details:
 - **Turbo Blue** has cyan side bar and panel like the IDE's watch / message windows, a grey menu bar and green
   menu highlights. **Blue Commander** has a cyan menu bar, grey dialogs and the black function key bar at the bottom.
 - **Luna Blue** has the orange line on the active tab, yellow tooltips and a green "start button" in the status bar.
+- **Green / Amber Phosphor** and **Black Cube** use a single color (or four greys) – syntax is told apart by
+  brightness, bold and italics, like on the real monochrome screens. Status bar and selections use inverse video.
+- **Pocket Green** has the four greens of the screen, the grey case around it and the magenta A/B buttons.
+- **Mode 1** is yellow on blue from the CPC's 27-color palette with the black case and the green ENTER key.
+- **Page 100** has the blue header row and the eight Teletext colors (plus grey comments, so they step back).
 - No rainbow brackets – those screens had one text color.
 - All languages work. Java, Kotlin, Python, TypeScript/JavaScript, HTML/CSS, PHP, C/C++, Go, Rust, JSON, YAML and
   Markdown are mapped in detail, including semantic highlighting.
@@ -91,6 +127,12 @@ the theme – or use a separate [profile](https://code.visualstudio.com/docs/con
 | Platinum | **Monaco** | preinstalled on macOS; elsewhere [ProFont](https://tobiasjung.name/profont/) |
 | Program Manager | **Fixedsys Excelsior** | free remake of the Windows 3.1 system font ([about Fixedsys](https://en.wikipedia.org/wiki/Fixedsys)) |
 | Luna Blue | **Lucida Console** or **Courier New** | preinstalled on Windows |
+| Green / Amber Phosphor | **Px437 IBM MDA** | [The Ultimate Oldschool PC Font Pack](https://int10h.org/oldschool-pc-fonts/) by VileR (CC BY-SA 4.0) |
+| Pocket Green | **Press Start 2P** | [Google Fonts](https://fonts.google.com/specimen/Press+Start+2P) (SIL OFL) |
+| Mode 1 | **Px437 Amstrad PC** | [The Ultimate Oldschool PC Font Pack](https://int10h.org/oldschool-pc-fonts/) – Amstrad's PC1512 font; there's no maintained free CPC font |
+| Page 100 | **Bedstead** | [bjh21.me.uk/bedstead](https://bjh21.me.uk/bedstead/) (public domain) – or `fonts-bedstead` on Debian |
+| Ocean Drive | **Space Mono** | [Google Fonts](https://fonts.google.com/specimen/Space+Mono) (SIL OFL) |
+| Black Cube | **Courier Prime** | [Google Fonts](https://fonts.google.com/specimen/Courier+Prime) (SIL OFL) – NeXT's own Ohlfs isn't freely licensed |
 
 Pixel fonts look sharpest at their native size or a multiple of it (8 or 16 px). Settings used for the screenshots:
 
@@ -142,6 +184,41 @@ Pixel fonts look sharpest at their native size or a multiple of it (8 or 16 px).
 "editor.fontFamily": "'Lucida Console', 'Courier New', monospace",
 "editor.fontSize": 14,
 "editor.lineHeight": 20,
+
+// Green Phosphor / Amber Phosphor (Amber: "underline" cursor)
+"editor.fontFamily": "'Px437 IBM MDA', monospace",
+"editor.fontSize": 18,
+"editor.lineHeight": 22,
+"editor.cursorStyle": "block",
+
+// Pocket Green
+"editor.fontFamily": "'Press Start 2P', monospace",
+"editor.fontSize": 12,
+"editor.lineHeight": 22,
+"editor.cursorStyle": "block",
+
+// Mode 1 – 40 columns like the CPC
+"editor.fontFamily": "'Px437 Amstrad PC', monospace",
+"editor.fontSize": 16,
+"editor.lineHeight": 20,
+"editor.cursorStyle": "block",
+
+// Page 100
+"editor.fontFamily": "Bedstead, monospace",
+"editor.fontSize": 16,
+"editor.lineHeight": 20,
+"editor.cursorStyle": "block",
+
+// Black Cube
+"editor.fontFamily": "'Courier Prime', Courier, monospace",
+"editor.fontSize": 14,
+"editor.lineHeight": 20,
+
+// Ocean Drive
+"editor.fontFamily": "'Space Mono', monospace",
+"editor.fontSize": 14,
+"editor.lineHeight": 22,
+"editor.cursorBlinking": "expand",
 ```
 
 Also nice for all of them: `"editor.fontLigatures": false` and `"editor.bracketPairColorization.enabled": false`.
@@ -172,6 +249,6 @@ Releases: see [RELEASING.md](RELEASING.md).
 ## License
 
 [MIT](LICENSE). The themes contain no fonts, logos or other material of the original systems.
-Commodore, Amiga, Atari, Norton Commander, Turbo Pascal, Borland, Apple, Mac OS, CodeWarrior, Microsoft, Windows
-and Visual Studio are trademarks of their respective owners; this project is not affiliated with or endorsed by any
+Commodore, Amiga, Atari, Norton Commander, Turbo Pascal, Borland, Apple, Mac OS, CodeWarrior, Microsoft, Windows,
+Visual Studio, IBM, Nintendo, Game Boy, Amstrad, Schneider, NeXT and NeXTSTEP are trademarks of their respective owners; this project is not affiliated with or endorsed by any
 of them.

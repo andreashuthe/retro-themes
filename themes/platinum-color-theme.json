@@ -1564,22 +1564,31 @@
       }
     },
     {
-      "name": "JS function",
+      "name": "JS function declaration",
       "scope": [
         "entity.name.function.js",
         "meta.definition.function.js entity.name.function.js",
-        "meta.function-call.js entity.name.function.js",
-        "support.function.js",
         "entity.name.function.ts",
         "meta.definition.function.ts entity.name.function.ts",
-        "meta.function-call.ts entity.name.function.ts",
-        "support.function.ts",
         "entity.name.function.tsx",
         "meta.definition.function.tsx entity.name.function.tsx",
+        "entity.name.function.js.jsx",
+        "meta.definition.function.js.jsx entity.name.function.js.jsx"
+      ],
+      "settings": {
+        "foreground": "#000000",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "JS function",
+      "scope": [
+        "meta.function-call.js entity.name.function.js",
+        "support.function.js",
+        "meta.function-call.ts entity.name.function.ts",
+        "support.function.ts",
         "meta.function-call.tsx entity.name.function.tsx",
         "support.function.tsx",
-        "entity.name.function.js.jsx",
-        "meta.definition.function.js.jsx entity.name.function.js.jsx",
         "meta.function-call.js.jsx entity.name.function.js.jsx",
         "support.function.js.jsx"
       ],
@@ -1592,13 +1601,9 @@
       "name": "JS method declaration",
       "scope": [
         "meta.definition.method.js entity.name.function.js",
-        "meta.method.declaration.js entity.name.function.js",
         "meta.definition.method.ts entity.name.function.ts",
-        "meta.method.declaration.ts entity.name.function.ts",
         "meta.definition.method.tsx entity.name.function.tsx",
-        "meta.method.declaration.tsx entity.name.function.tsx",
-        "meta.definition.method.js.jsx entity.name.function.js.jsx",
-        "meta.method.declaration.js.jsx entity.name.function.js.jsx"
+        "meta.definition.method.js.jsx entity.name.function.js.jsx"
       ],
       "settings": {
         "foreground": "#000000",
@@ -2308,11 +2313,12 @@
     {
       "name": "C++ call",
       "scope": [
-        "entity.name.function.member",
-        "entity.name.function.call",
-        "meta.function-call entity.name.function",
         "entity.name.function.member.cpp",
-        "entity.name.function.call.cpp"
+        "entity.name.function.call.cpp",
+        "meta.function-call.cpp entity.name.function.cpp",
+        "entity.name.function.member.c",
+        "entity.name.function.call.c",
+        "meta.function-call.c entity.name.function.c"
       ],
       "settings": {
         "foreground": "#000000",
@@ -3802,6 +3808,91 @@
       "foreground": "#7A00A8",
       "italic": false,
       "bold": false
+    },
+    "function.static.declaration:kotlin": {
+      "foreground": "#000000",
+      "italic": false,
+      "bold": true
+    },
+    "method.declaration:typescript": {
+      "foreground": "#000000",
+      "italic": false,
+      "bold": true
+    },
+    "method.static.declaration:typescript": {
+      "foreground": "#000000",
+      "italic": false,
+      "bold": true
+    },
+    "function.declaration:typescript": {
+      "foreground": "#000000",
+      "italic": false,
+      "bold": true
+    },
+    "method.declaration:typescriptreact": {
+      "foreground": "#000000",
+      "italic": false,
+      "bold": true
+    },
+    "method.static.declaration:typescriptreact": {
+      "foreground": "#000000",
+      "italic": false,
+      "bold": true
+    },
+    "function.declaration:typescriptreact": {
+      "foreground": "#000000",
+      "italic": false,
+      "bold": true
+    },
+    "method.declaration:javascript": {
+      "foreground": "#000000",
+      "italic": false,
+      "bold": true
+    },
+    "method.static.declaration:javascript": {
+      "foreground": "#000000",
+      "italic": false,
+      "bold": true
+    },
+    "function.declaration:javascript": {
+      "foreground": "#000000",
+      "italic": false,
+      "bold": true
+    },
+    "method.declaration:javascriptreact": {
+      "foreground": "#000000",
+      "italic": false,
+      "bold": true
+    },
+    "method.static.declaration:javascriptreact": {
+      "foreground": "#000000",
+      "italic": false,
+      "bold": true
+    },
+    "function.declaration:javascriptreact": {
+      "foreground": "#000000",
+      "italic": false,
+      "bold": true
+    },
+    "function.declaration:go": {
+      "foreground": "#000000",
+      "italic": false,
+      "bold": true
+    },
+    "method.declaration:go": {
+      "foreground": "#000000",
+      "italic": false,
+      "bold": true
+    },
+    "method.static.declaration:cpp": {
+      "foreground": "#000000",
+      "italic": false,
+      "bold": true
+    },
+    "method.static.declaration:c": {
+      "foreground": "#000000",
+      "italic": false,
+      "bold": true
     },
     "*.deprecated": {
       "strikethrough": true

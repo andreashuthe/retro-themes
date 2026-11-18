@@ -8,6 +8,16 @@ and uses it as the GitHub release notes.
 
 ## [Unreleased]
 
+### Added
+- Six new themes: **Green Phosphor** and **Amber Phosphor** (monochrome monitors), **Pocket Green** (Game Boy),
+  **Mode 1** (Amstrad / Schneider CPC 464), **Page 100** (Teletext / Videotext) and **Black Cube** (NeXTSTEP).
+- Bonus theme **Ocean Drive**: neon sunset colors (pink, turquoise, orange, gold on violet).
+- Recommended fonts and settings for the new themes in the README.
+
+### Fixed
+- TypeScript/JavaScript: function and method declarations use the theme's declaration color; calls inside methods
+  no longer do.
+
 ## [1.0.0] - 2026-11-17
 
 ### Added

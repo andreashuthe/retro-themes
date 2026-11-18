@@ -1,7 +1,7 @@
 {
   "name": "retro-computing-themes",
   "displayName": "Retro Computing Themes",
-  "description": "Eight color themes inspired by classic computers and DOS tools: C64, Amiga Workbench 1.3, Norton Commander, Turbo Pascal, Atari ST, Mac OS 9, Windows 3.1 and Windows XP – original palettes, tuned for readable code.",
+  "description": "14 color themes inspired by classic computers: C64, Amiga, Norton Commander, Turbo Pascal, Atari ST, Mac OS 9, Windows 3.1, Windows XP, green and amber monochrome monitors, Game Boy, Amstrad CPC, Teletext and NeXTSTEP – plus the bonus theme Ocean Drive (neon sunset) – original palettes, tuned for readable code.",
   "version": "1.0.0",
   "publisher": "andreashuthe",
   "author": "Andreas Huth",
@@ -41,7 +41,17 @@
     "mac os 9",
     "windows 3.1",
     "windows xp",
-    "nostalgia"
+    "nostalgia",
+    "monochrome",
+    "green screen",
+    "amber",
+    "game boy",
+    "amstrad cpc",
+    "teletext",
+    "nextstep",
+    "neon",
+    "sunset",
+    "synthwave"
   ],
   "contributes": {
     "themes": [
@@ -92,6 +102,48 @@
         "label": "Luna Blue",
         "uiTheme": "vs",
         "path": "./themes/luna-blue-color-theme.json"
+      },
+      {
+        "id": "Green Phosphor",
+        "label": "Green Phosphor",
+        "uiTheme": "vs-dark",
+        "path": "./themes/green-phosphor-color-theme.json"
+      },
+      {
+        "id": "Amber Phosphor",
+        "label": "Amber Phosphor",
+        "uiTheme": "vs-dark",
+        "path": "./themes/amber-phosphor-color-theme.json"
+      },
+      {
+        "id": "Pocket Green",
+        "label": "Pocket Green",
+        "uiTheme": "vs",
+        "path": "./themes/pocket-green-color-theme.json"
+      },
+      {
+        "id": "Mode 1",
+        "label": "Mode 1",
+        "uiTheme": "vs-dark",
+        "path": "./themes/mode-1-color-theme.json"
+      },
+      {
+        "id": "Page 100",
+        "label": "Page 100",
+        "uiTheme": "vs-dark",
+        "path": "./themes/page-100-color-theme.json"
+      },
+      {
+        "id": "Black Cube",
+        "label": "Black Cube",
+        "uiTheme": "vs",
+        "path": "./themes/black-cube-color-theme.json"
+      },
+      {
+        "id": "Ocean Drive",
+        "label": "Ocean Drive",
+        "uiTheme": "vs-dark",
+        "path": "./themes/ocean-drive-color-theme.json"
       }
     ]
   },
