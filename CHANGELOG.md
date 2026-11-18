@@ -8,6 +8,8 @@ and uses it as the GitHub release notes.
 
 ## [Unreleased]
 
+## [1.0.1] - 2026-11-18
+
 ### Added
 - Six new themes: **Green Phosphor** and **Amber Phosphor** (monochrome monitors), **Pocket Green** (Game Boy),
   **Mode 1** (Amstrad / Schneider CPC 464), **Page 100** (Teletext / Videotext) and **Black Cube** (NeXTSTEP).
