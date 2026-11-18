@@ -8,6 +8,8 @@ and uses it as the GitHub release notes.
 
 ## [Unreleased]
 
+## [1.1.0] - 2026-11-18
+
 ## [1.0.1] - 2026-11-18
 
 ### Added
