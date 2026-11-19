@@ -8,6 +8,8 @@ and uses it as the GitHub release notes.
 
 ## [Unreleased]
 
+## [1.1.1] - 2026-11-19
+
 ### Fixed
 - README images and links on the Marketplace / Open VSX: the repository URL pointed to a GitHub repo that doesn't exist.
 
