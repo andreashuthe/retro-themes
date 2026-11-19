@@ -8,12 +8,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/andreashuthe/retro-computing-themes.git"
+    "url": "https://github.com/andreashuthe/retro-themes.git"
   },
   "bugs": {
-    "url": "https://github.com/andreashuthe/retro-computing-themes/issues"
+    "url": "https://github.com/andreashuthe/retro-themes/issues"
   },
-  "homepage": "https://github.com/andreashuthe/retro-computing-themes#readme",
+  "homepage": "https://github.com/andreashuthe/retro-themes#readme",
   "icon": "media/icon.png",
   "galleryBanner": {
     "color": "#352879",

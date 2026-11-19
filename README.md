@@ -11,7 +11,7 @@
 <p align="center">
   <a href="https://marketplace.visualstudio.com/items?itemName=andreashuthe.retro-computing-themes"><img src="https://img.shields.io/visual-studio-marketplace/v/andreashuthe.retro-computing-themes?label=VS%20Code%20Marketplace&color=3871E1" alt="VS Code Marketplace"></a>
   <a href="https://open-vsx.org/extension/andreashuthe/retro-computing-themes"><img src="https://img.shields.io/open-vsx/v/andreashuthe/retro-computing-themes?label=Open%20VSX&color=7F52FF" alt="Open VSX"></a>
-  <a href="https://github.com/andreashuthe/retro-computing-themes/actions/workflows/ci.yml"><img src="https://github.com/andreashuthe/retro-computing-themes/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
+  <a href="https://github.com/andreashuthe/retro-themes/actions/workflows/ci.yml"><img src="https://github.com/andreashuthe/retro-themes/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
 </p>
 
 | Theme | Inspired by | |

@@ -46,7 +46,7 @@ Global Azure DevOps PATs are retired on **2026-12-01**, so the workflow publishe
 2. Create the namespace once: `npx ovsx create-namespace andreashuthe -p <token>`.
 3. In GitHub add the **secret** `OVSX_PAT` = `<token>` and the **variable** `PUBLISH_OPENVSX` = `true`.
 4. After the first successful release you can switch to token-less publishing: open-vsx.org →
-   *Settings → Trusted Publishers* → add `andreashuthe/retro-computing-themes`, workflow `release.yml`
+   *Settings → Trusted Publishers* → add `andreashuthe/retro-themes`, workflow `release.yml`
    → then delete the `OVSX_PAT` secret.
 
 Without the variables the workflow still creates the tag and the GitHub release — it just doesn't publish.

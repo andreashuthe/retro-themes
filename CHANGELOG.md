@@ -8,9 +8,10 @@ and uses it as the GitHub release notes.
 
 ## [Unreleased]
 
-## [1.1.0] - 2026-11-18
+### Fixed
+- README images and links on the Marketplace / Open VSX: the repository URL pointed to a GitHub repo that doesn't exist.
 
-## [1.0.1] - 2026-11-18
+## [1.1.0] - 2026-11-18
 
 ### Added
 - Six new themes: **Green Phosphor** and **Amber Phosphor** (monochrome monitors), **Pocket Green** (Game Boy),
@@ -21,6 +22,10 @@ and uses it as the GitHub release notes.
 ### Fixed
 - TypeScript/JavaScript: function and method declarations use the theme's declaration color; calls inside methods
   no longer do.
+
+## [1.0.1] - 2026-11-18
+
+Same changes as 1.1.0 – published as a patch release by mistake and re-released as 1.1.0.
 
 ## [1.0.0] - 2026-11-17
 
